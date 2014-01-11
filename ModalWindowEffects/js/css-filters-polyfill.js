@@ -1,15 +1,4 @@
-/*!
- * css-filters-polyfill.js
- *
- * Author: Christian Schepp Schaefer
- * Summary: A polyfill for CSS filter effects
- * License: MIT
- * Version: 0.22
- *
- * URL:
- * https://github.com/Schepp/
- *
- */
+
 ;(function(window){
 	var polyfilter = {
 		// Detect if we are dealing with IE <= 9
@@ -25,7 +14,7 @@
 				all[0]
 			);
 			
-			return v > 4 ? v : undef;
+			return v > 3 ? v : undef;
 		}()),
 		
 		_svg_cache: 		{},
