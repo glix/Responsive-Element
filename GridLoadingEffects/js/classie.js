@@ -73,7 +73,7 @@ if ( typeof define === 'function' && define.amd ) {
   // AMD
   define( classie );
 } else {
-  // browser global
+  // merge
   window.classie = classie;
 }
 
