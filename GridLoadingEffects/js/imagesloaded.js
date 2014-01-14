@@ -1,7 +1,4 @@
-/*!
- * imagesLoaded v3.0.2
- * JavaScript is all like "You images are done yet or what?"
- */
+rr/
 
 ( function( window ) {
 
